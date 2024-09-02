@@ -1,5 +1,5 @@
 package com.example.lab12.Advise;
-
+@ControllerAdvice
 public class ControllerAdvise {
   
     @ExceptionHandler(value = ApiException.class)
